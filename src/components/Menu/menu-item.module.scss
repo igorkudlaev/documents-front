@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+
+.item {
+  color: $blue;
+  text-decoration: none;
+  &Active {
+    @extend .item;
+    text-decoration: underline;
+  }
+}
