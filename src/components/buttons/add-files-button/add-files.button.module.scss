@@ -1,0 +1,16 @@
+@import "../../../styles/variables.scss";
+
+.container {
+  border-color: $blue;
+  transition: all ease-in-out 0.2s;
+}
+.container:hover {
+  background-color: $blue;
+  .text {
+    color: white;
+  }
+}
+.text {
+  margin-left: 15px;
+  color: $blue;
+}

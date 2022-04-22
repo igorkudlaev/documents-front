@@ -1,0 +1,14 @@
+.container {
+  width: 70%;
+  margin-right: 30px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    font-size: 36px;
+  }
+  .buttonsWrapper {
+    display: flex;
+  }
+}

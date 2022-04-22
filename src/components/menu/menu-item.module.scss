@@ -3,8 +3,14 @@
 .item {
   color: $blue;
   text-decoration: none;
+  font-size: 24;
+  padding: 12px 0px;
+  margin-right: 20px;
   &Active {
     @extend .item;
     text-decoration: underline;
+  }
+  &:visited {
+    color: $blue;
   }
 }

@@ -1,0 +1,16 @@
+.container {
+  width: 30%;
+  h3 {
+    font-size: 24px;
+  }
+}
+.items {
+  padding-top: 20px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
